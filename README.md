@@ -4,11 +4,24 @@ A lightweight, fast CLI tool written in Rust that performs text replacements bas
 
 ---
 
-## ✨ Features
+- [Text Replacer](#text-replacer)
+  - [Features](#features)
+  - [Configuration (`list.csv`)](#configuration-listcsv)
+  - [Build \& Release](#build--release)
+  - [Usage](#usage)
+    - [1. Clipboard Mode (Default)](#1-clipboard-mode-default)
+    - [2. Default File Mode (`workspace.txt`)](#2-default-file-mode-workspacetxt)
+    - [3. Custom File Mode](#3-custom-file-mode)
+    - [CLI Arguments Summary](#cli-arguments-summary)
+  - [AI Usage](#ai-usage)
 
-- 📋 **Clipboard Mode (Default):** Reads text directly from your clipboard, replaces patterns, and writes the result back into your clipboard.
-- 📁 **File Mode:** Reads from an input file, applies replacements, and writes to an output file.
-- ⚙️ **CSV Rule Engine:** Define all your find-and-replace rules in a simple `list.csv` file.
+---
+
+## Features
+
+- **Clipboard Mode (Default):** Reads text directly from your clipboard, replaces patterns, and writes the result back into your clipboard.
+- **File Mode:** Reads from an input file, applies replacements, and writes to an output file.
+- **CSV Rule Engine:** Define all your find-and-replace rules in a simple `list.csv` file.
 
 ---
 
